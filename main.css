@@ -1,0 +1,27 @@
+form {
+    margin: 20px auto;
+    max-height: 1366px;
+    margin: auto;
+}
+#campA, #campB, .botao, .error_mensagem {
+    margin: 5px;
+}
+.error_mensagem {
+    background-color: red;
+    color:aliceblue;
+    width: 450px;
+    display:none;
+}
+.botao {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-weight: bold;
+}
+input.error {
+    color: red;
+    border-color:red;
+    outline-color: red;
+}
